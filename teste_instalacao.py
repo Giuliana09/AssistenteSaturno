@@ -17,7 +17,7 @@ play_audio('n2.mp3')
 play_audio('n1.mp3')
 play_audio('n3.mp3')
 
-
+# pip install charset_normalizer, chardet
 
 #import speech_recognition
 #print('Speech Recognition: ', speech_recognition.__version__)
@@ -39,3 +39,25 @@ play_audio('n3.mp3')
 
 #import pyaudio
 #print('Pyaudio ok!')
+
+#----------------------------------------------------
+# exibir hora e data
+
+hora = datetime.datetime.now().strftime('%H:%M')
+#print (hora)
+#pyttsx3.speak(hora)
+date = datetime.date.today().strftime('%d/%B/%Y')
+#print(data)
+date = date.split('/')
+#print(data)
+
+
+
+# MacOS
+#chrome_path = 'open -a /Applications/Google\ Chrome.app %s'
+# Windows
+
+# Linux
+# chrome_path = '/usr/bin/google-chrome %s'
+
+
