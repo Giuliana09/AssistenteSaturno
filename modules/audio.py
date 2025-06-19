@@ -9,8 +9,6 @@ caminhoAudio = os.path.join(BASE_DIR, 'audios')
 pygame.init()
 pygame.mixer.init()
 
-
-
 def play_audio(audio):
     sons = os.path.join(os.path.join(caminhoAudio, audio))
     pygame.mixer.music.load(sons)

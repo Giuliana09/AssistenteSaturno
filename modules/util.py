@@ -1,7 +1,7 @@
 import datetime
 
 def hora_atual():
-    return datetime.datetime.now().strftime('%H:%M')
+    return datetime.datetime.now().strftime('%H:%M:%S')
 
 def data_hoje():
     hoje = datetime.datetime.now()

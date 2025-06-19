@@ -7,8 +7,7 @@ data = ['que dia é hoje', 'que dia é', 'que dia hoje']
 sobreMim = ['fale sobre você', 'fala sobre você', 'me conta mais sobre você','me conte mais sobre você', 'me conta sobre você', 'me conte sobre você','quero te conhecer', 'quem é você' ]
 
 comandos = [funcoes, lembretes, ajuda, horas, data, sobreMim]
-#print(comandos)
-#print(comandos[2])
+
 
 # Respostas
 funcionalidades = 'Gravar lembretes, fazer pesquisas no Google, falar as horas, falar a data, tocar músicas, e falar sobre mim'
@@ -20,6 +19,5 @@ respostas_sobreMim = ['Já fui personagem de desenho e sou seu assistente virtua
 
 respostas = [funcionalidades, respostas_conclusao, perguntas, respostas_agradecimento, despedida, respostas_sobreMim]
 
-#print(respostas)
-#print(respostas[1])
+
 
